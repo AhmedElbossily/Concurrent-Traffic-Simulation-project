@@ -2,8 +2,10 @@
 
 <img src="data/traffic_simulation.gif"/>
 
-The purpose of this project is to simulate traffic in a city with vehicles. Vehicles drive around randomly and change the direction at each intersection. Each object in the city grid will run independently in its own thread.
-In this project, a suitable and thread-safe communication protocol was built between vehicles and intersections to complete the simulation using mutexes, locks, and message queues.
+- The **purpose** of this project is to **simulate traffic in a city with vehicles**. 
+- Vehicles drive around **randomly** and change the direction at each **intersection**. 
+- Each object in the city grid will run **independently** in its **own thread**.
+- A suitable and thread-safe communication protocol was built between vehicles and intersections to complete the simulation using **mutexes, locks, and message queues**.
 
 ## Dependencies for Running Locally
 * cmake >= 2.8
